@@ -1,0 +1,50 @@
+body{
+    background-color: grey;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0px;
+    height: 100%;
+    width: 100%;
+}
+input[type=submit] {
+    background-color: #70AEFF;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#container{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+#itemflex{
+    width: 25%;
+    height: 50%;
+}
+#itemflex td, #itemflex th, #itemflex tr{
+    margin: 0%;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/*#itemflex tr:nth-child(even){background-color: #f2f2f2;}*/
+
+#itemflex tr {background-color: #f2f2f2;}
+
+#itemflex th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: center;
+background-color: #70AEFF;
+color: white;
+}
+#idlicense{
+    display: none;
+}

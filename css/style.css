@@ -1,0 +1,121 @@
+body{
+    padding: 0vh;
+    margin: 0vh;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    width: 100vw;
+    height: 100vh;
+}
+table{
+    width: 50vw;
+    border-collapse: collapse;
+    border-spacing: 0px;
+
+}
+label{
+    font-size: 3vh;
+}
+input[type="submit"]{
+    margin-left: 1vw;
+}
+a:link, a:visited {
+    background-color: #70AEFF;
+    color: white;
+    padding: 6px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  a:hover, a:active {
+    background-color: #035AA6;
+  }
+#container{
+    width: 100vw;
+    height: 100vh;
+    padding: 0vh;
+    margin: 0vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #696969;
+}
+.border{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: #fff;
+    width: 70vw;
+    height: 100vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    border-left: 1px solid #f0f0f0;
+    border-right: 1px solid #f0f0f0;
+}
+.panel-heading{
+    width: 50vw;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+}
+.panel{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+}
+.nav{
+    margin-bottom: 10vh;
+    padding-bottom: 5vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 0px 0px 30px 30px;
+}
+.main{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 10vh;
+}
+.table{
+    width: 50vw;
+}
+.table td{
+    text-align: center;
+}
+.table td, .table th, .table tr{
+    margin: 0%;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #70AEFF;
+    color: white;
+    }
+.search{
+    padding-bottom: 5vh;
+}
+.nav-tabs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    width: 50vw;
+    padding-right: 5vw;
+}
+.nav-tabs a {
+    margin-right: 0.5vw;
+}
